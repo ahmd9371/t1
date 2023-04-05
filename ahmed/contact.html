@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="photo/style2.css">
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+</script>
+<script type="text/javascript">
+   (function(){
+      emailjs.init("Z2KWjeywxCpSbHvZx");
+   })();
+</script>
+
+</head>
+<body class="boddy">
+
+    <div class="text">
+        <h1>booking in hotel</h1>
+    </div>
+                <!-- start sct_1 -->
+    <div class="container availability-form">
+      <div class="row">
+          <div class="col-lg-12 bg-white shadow p-4 rounded">
+              <h5 class="col-lg-3">Check Booking Availability</h5>
+              <form>
+                  <div class="row align-items-end">
+                      <div class="col-lg-3 mb-3">
+                          <label class="form-label" style="font-weight: 500;">Check-in</label>
+                          <input type="date" class="form-control shadow-none">
+                      </div>
+                      <div class="col-lg-3 mb-3">
+                          <label class="form-label" style="font-weight: 500;">Check-out</label>
+                          <input type="date" class="form-control shadow-none">
+                      </div>
+                      <div class="col-lg-3 mb-3">
+                          <label class="form-label" style="font-weight: 500;">Adult</label>
+                          <select class="form-select shadow-none">
+                       
+                           <option value="1">One</option>
+                           <option value="2">Two</option>
+                           <option value="3">Three</option>
+                         </select>
+                      </div>
+                      <div class="col-lg-2 mb-3">
+                          <label class="form-label" style="font-weight: 500;">Children</label>
+                          <select class="form-select shadow-none">
+                           
+                           <option value="1">One</option>
+                           <option value="2">Two</option>
+                           <option value="3">Three</option>
+                         </select>
+                      </div>
+                      <div class="col-lg-1 mb-lg-3 mt-2">
+                          <button type="submit" class="btn text-white shadow-none custom-bg">Submit</button>
+                      </div>
+ 
+                  </div>
+              </form>
+          </div>
+      </div>
+  </div>
+                  <!-- end sct_1 -->
+
+         <!-- start sct_2 -->
+    <section class="container">
+      <div class="container border mt-3 bg-light">
+        <div class="row">
+          <div class="col-md-6 p-5 bg-primary text-white">
+            <h1>Hi there!</h1>
+            <h4>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo,
+            </h4>
+          </div>
+          <div class="col-md-6 border-left py-3">
+            <h1>Contact form</h1>
+            <div class="form-group">
+              <h5 for="name">Name</h5>
+              <input
+                type="text"
+                class="form-control"
+                id="name"
+                placeholder="Enter name"
+              />
+            </div>
+            <div class="form-group">
+              <h5 for="email">Email</h5>
+              <input
+                type="email"
+                class="form-control"
+                id="email"
+                placeholder="Enter email"
+              />
+            </div>
+            <div class="form-group">
+              <h5 for="message">Message</h5>
+              <textarea class="form-control" id="message" rows="3"></textarea>
+            </div>
+            <a href="end.html"><button class="btn btn-primary" onclick="sendMail()">Submit</button></a>
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+          <!-- end sct_2 -->
+
+
+    <script src="jquery.slim.min.js"></script>
+    <script src="popper.min.js"></script>
+    <script src="bootstrap.min.js"></script>
+    <script src="https://kit.fontawesome.com/51725e4873.js" crossorigin="anonymous"></script>
+    <script src="main.js"></script>
+</body>
+</html>
